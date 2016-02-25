@@ -1,3 +1,4 @@
+//nildev:template nildev:simple-handlers v0.1.0
 package {{.PackageName}}
 
 // THIS IS AUTO GENERATED FILE - DO NOT EDIT!

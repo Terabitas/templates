@@ -1,3 +1,4 @@
+//nildev:template nildev:simple-router v0.1.0
 package {{.PackageName}}
 import (
 	{{range .Imports}}

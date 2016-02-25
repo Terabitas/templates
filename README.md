@@ -2,6 +2,18 @@
 
 Templates used by `nildev` code generator.
 
+# How to
+
+Any file that has comment as follows at the top of the file can be used with `nildev` tool.
+
+```
+//nildev:template organisation:template-name vX.Y.Z
+```
+
+* `organisation` - [a-Z]+
+* `template-name` - [a-Z]+
+* `vX.Y.Z` - according [semver.org](http://semver.org)
+
 ## Install
 
 ```
