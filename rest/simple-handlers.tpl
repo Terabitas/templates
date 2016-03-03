@@ -119,9 +119,7 @@ func NildevRoutes() router.Routes {
 	routes.Routes[{{$i}}] = router.Route{
 		Name:        "{{$f.GetFullName}}",
 		Method:      []string{
-		    {{range $f.GetMethod}}
-		    "{{.}}",
-		    {{end}}
+		    {{range $f.GetMethod}}"{{.}}",{{end}}
 		},
 		Pattern:     "{{$f.GetPattern}}",
 		Protected:   {{$f.GetProtected}},
